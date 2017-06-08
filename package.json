@@ -4,5 +4,15 @@
   "main": "index.js",
   "repository": "https://github.com/newsjelly2017/desk2017.git",
   "author": "GimYoungPhil <youngphil.gim@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "python -m SimpleHTTPServer 8000",
+    "bundle": "webpack --config ./config/webpack.config.js"
+  },
+  "devDependencies": {
+    "webpack": "2.6.1"
+  },
+  "dependencies": {
+    "underscore": "1.8.3"
+  }
 }
