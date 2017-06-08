@@ -1,6 +1,6 @@
 import _ from 'underscore'
 
-let newsjelly = ["뉴", "스", "젤", "리"]
+let newsjelly = ["뉴", "스", "젤", "리", "test"]
 
 let fn = (arr) => {
   for(let el of arr) {
