@@ -1,0 +1,8 @@
+{
+  "name": "desk2017",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/newsjelly2017/desk2017.git",
+  "author": "GimYoungPhil <youngphil.gim@gmail.com>",
+  "license": "MIT"
+}
