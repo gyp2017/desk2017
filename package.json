@@ -10,9 +10,13 @@
     "bundle": "webpack --config ./config/webpack.config.js"
   },
   "devDependencies": {
+    "babel-core": "6.24.0",
+    "babel-loader": "7.0.0",
+    "babel-preset-env": "1.5.2",
     "webpack": "2.6.1"
   },
   "dependencies": {
-    "underscore": "1.8.3"
+    "underscore": "1.8.3",
+    "vue": "2.3.3"
   }
 }
