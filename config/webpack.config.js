@@ -1,7 +1,7 @@
 var path = require('path');
 
 module.exports = {
-  entry: './app/test.js',
+  entry: './app/main.js',
 
   output: {
     filename: 'bundle.js',
@@ -14,6 +14,10 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel-loader',
         exclude: /node_modules/
+      },
+      {
+        test: /\.vue$/,
+        loader: 'vue-loader'
       }
     ]
   }
