@@ -1,6 +1,6 @@
 <template lang="html">
-  <div class="app">
-    <h1>{{ greeting }}</h1>
+  <div class="sk-app">
+    <router-view></router-view>
   </div>
 </template>
 
@@ -14,8 +14,5 @@ export default {
 }
 </script>
 
-<style lang="css">
-.app {
-  background-color: pink;
-}
+<style src="./app.css">
 </style>
