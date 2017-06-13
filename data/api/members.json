@@ -1,0 +1,22 @@
+{
+  "content": [
+    {
+      "name": "홍길동",
+      "desk": "G1-1",
+      "nick": "홍",
+      "team": "team1"
+    },
+    {
+      "name": "임꺽정",
+      "desk": "G1-2",
+      "nick": "임",
+      "team": "team1"
+    },
+    {
+      "name": "이순신",
+      "desk": "G1-3",
+      "nick": "신",
+      "team": "team1"
+    }
+  ]
+}

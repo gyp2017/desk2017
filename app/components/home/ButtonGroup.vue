@@ -5,6 +5,7 @@
         <button type="button" class="btn btn-outline-primary">로그인</button>
         <button type="button" class="btn btn-outline-primary">회원가입</button>
         <button type="button" class="btn btn-outline-primary">문의하기</button>
+        <router-link to="/desk" class="btn btn-outline-success">Desk!</router-link>
         <router-link to="/about" class="btn btn-outline-success">About Go!</router-link>
       </div>
     </div>
